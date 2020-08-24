@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     }
     
     
-    func alert(message:String) {
+   private func alert(message:String) {
         let alert = UIAlertController(title: "結果", message: message, preferredStyle: .alert)
         let challenge = UIAlertAction(title: "再挑戦", style: .default, handler:{(Action:UIAlertAction!) -> Void in self.upDate()})
         alert.addAction(challenge)
