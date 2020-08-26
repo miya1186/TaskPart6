@@ -8,6 +8,7 @@
 
 import UIKit
 
+//nsnsjsj
 class ViewController: UIViewController {
     
     @IBOutlet private var sliderValueLabel: UILabel!
